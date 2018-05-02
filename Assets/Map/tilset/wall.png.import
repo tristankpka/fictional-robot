@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall.png-2627a6026092383f81bc87b19cfdb7b7.stex"
+path="res://.import/wall.png-0d36996e1c54764238198a1314f6d0d0.stex"
 
 [deps]
 
-source_file="res://tilset/wall.png"
+source_file="res://Assets/Map/tilset/wall.png"
 source_md5="b92ca7d3e85f9601c0980171e06f8be3"
 
-dest_files=[ "res://.import/wall.png-2627a6026092383f81bc87b19cfdb7b7.stex" ]
+dest_files=[ "res://.import/wall.png-0d36996e1c54764238198a1314f6d0d0.stex" ]
 dest_md5="6637bd5d915d6310c2965057a853f0cb"
 
 [params]

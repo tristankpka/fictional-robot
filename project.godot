@@ -11,13 +11,14 @@ config_version=3
 [application]
 
 config/name="Fictional-Robot"
-run/main_scene="res://Map.tscn"
+run/main_scene="res://Game.tscn"
 config/icon="res://icon.png"
 
 [display]
 
 window/size/width=1280
 window/size/height=720
+mouse_cursor/custom_image="res://Assets/crosshair.png"
 
 [input]
 

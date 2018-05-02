@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor.png-de42867784e5e64da2c14e7b4a2f60ad.stex"
+path="res://.import/crosshair.png-7bed3294e640fe9ca357247b0602b756.stex"
 
 [deps]
 
-source_file="res://tilset/floor.png"
-source_md5="8bb41937ab84d1c793eea90ad6f55598"
+source_file="res://Assets/crosshair.png"
+source_md5="483c78f7667edd33cba56466029f0bbb"
 
-dest_files=[ "res://.import/floor.png-de42867784e5e64da2c14e7b4a2f60ad.stex" ]
-dest_md5="07d080643bd6c3b7dce77889cf1752a3"
+dest_files=[ "res://.import/crosshair.png-7bed3294e640fe9ca357247b0602b756.stex" ]
+dest_md5="8a211454253104b14099cc084a1b22ef"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

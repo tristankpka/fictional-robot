@@ -3,12 +3,15 @@
 [ext_resource path="res://Map/Map.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 
-[node name="Game" type="Node" index="0"]
+[node name="Game" type="Node"]
 
 [node name="Map" parent="." index="0" instance=ExtResource( 1 )]
 
 _sections_unfolded = [ "Pause" ]
 
 [node name="Player" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 259.827, 187.336 )
+scale = Vector2( 0.25, 0.25 )
 
 

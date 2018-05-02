@@ -1,7 +1,9 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://tilset/wall.png" type="Texture" id=1]
-[ext_resource path="res://tilset/floor.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Map/tilset/wall.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Map/tilset/floor.png" type="Texture" id=2]
+
+
 
 [node name="tilset_edit" type="Node2D" index="0"]
 

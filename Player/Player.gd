@@ -17,6 +17,15 @@ func get_input():
         velocity.y -= 1
     velocity = velocity.normalized() * speed
 
+    if Input.is_action_just_pressed('mouse_click'):
+        shoot()
+
+func shoot():
+    # "Muzzle" is a Position2D placed at the barrel of the gun
+    var b = Bullet.instance()
+    b.start($Muzzle.global_position, rotation)
+    get_parent().add_child(b)
+
 func _physics_process(delta):
     get_input()
     move_and_slide(velocity)
