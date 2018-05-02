@@ -5,7 +5,7 @@
 [ext_resource path="res://GUI/Game_GUI.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Enemy/Enemy.tscn" type="PackedScene" id=4]
 
-[node name="Game" type="Node" index="0"]
+[node name="Game" type="Node"]
 
 [node name="Map" parent="." index="0" instance=ExtResource( 1 )]
 

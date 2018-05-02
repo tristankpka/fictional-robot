@@ -7,7 +7,7 @@
 custom_solver_bias = 0.0
 extents = Vector2( 3, 3 )
 
-[node name="Bullet" type="KinematicBody2D"]
+[node name="Bullet" type="KinematicBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 1
@@ -15,6 +15,7 @@ collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
 _sections_unfolded = [ "Collision" ]
+damage = 10
 
 [node name="Polygon2D" type="Polygon2D" parent="." index="0"]
 

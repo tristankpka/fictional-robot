@@ -5,6 +5,7 @@ extends KinematicBody2D
 # var b = "textvar"
 
 export (int) var speed = 50
+export (int) var life = 30
 
 var velocity = Vector2()
 
@@ -18,3 +19,8 @@ func _physics_process(delta):
 	look_at(player_pos)
 	velocity = Vector2(speed, 0).rotated(rotation)
 	move_and_slide(velocity)
+
+func hit_by_bullet(damage):
+	life -= damage
+	if life <= 0:
+		queue_free()
