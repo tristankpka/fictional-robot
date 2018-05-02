@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Player/player.png" type="Texture" id=2]
+[ext_resource path="res://Player/icon.png" type="Texture" id=2]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -16,22 +16,22 @@ _sections_unfolded = [ "Resource" ]
 [sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
-extents = Vector2( 115.714, 107.834 )
+extents = Vector2( 59.2513, 60.0746 )
 
 [node name="Player" type="KinematicBody2D"]
 
-scale = Vector2( 0.33, 0.33 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-_sections_unfolded = [ "Transform" ]
 speed = 200
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
 position = Vector2( -1.90625, -0.18335 )
+rotation = 1.5708
+scale = Vector2( 2, 2 )
 frames = SubResource( 1 )
 animation = "walk"
 _sections_unfolded = [ "Transform" ]
@@ -46,9 +46,5 @@ _sections_unfolded = [ "Transform", "Z Index" ]
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="Muzzle" type="Position2D" parent="." index="2"]
-
-position = Vector2( 205.315, 107.546 )
 
 
