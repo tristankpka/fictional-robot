@@ -11,6 +11,8 @@ _sections_unfolded = [ "Pause" ]
 
 [node name="Player" parent="." index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 555.797, 292.422 )
+position = Vector2( 384.057, 235.117 )
+scale = Vector2( 0.25, 0.25 )
+_sections_unfolded = [ "Material", "Transform" ]
 
 
