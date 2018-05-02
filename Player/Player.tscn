@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
 [ext_resource path="res://Assets/Player/player.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Player/pistol_sound.wav" type="AudioStream" id=3]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -18,7 +19,7 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 extents = Vector2( 115.714, 107.834 )
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" index="0"]
 
 scale = Vector2( 0.33, 0.33 )
 input_pickable = false
@@ -50,5 +51,15 @@ __meta__ = {
 [node name="Muzzle" type="Position2D" parent="." index="2"]
 
 position = Vector2( 215.409, 107.729 )
+
+[node name="Sound" type="AudioStreamPlayer2D" parent="." index="3"]
+
+stream = ExtResource( 3 )
+volume_db = 0.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
 
 
