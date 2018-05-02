@@ -49,6 +49,6 @@ __meta__ = {
 
 [node name="Muzzle" type="Position2D" parent="." index="2"]
 
-position = Vector2( 205.315, 107.546 )
+position = Vector2( 215.092, 106.46 )
 
 

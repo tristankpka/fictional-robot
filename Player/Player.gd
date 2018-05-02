@@ -4,6 +4,7 @@ extends KinematicBody2D
 export (int) var speed = 200
 
 var velocity = Vector2()
+var Bullet = preload("res://Weapons/Bullet/Bullet.tscn")
 
 func get_input():
     velocity = Vector2()
