@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/crosshair.png-be15faa8a4420e8670e725d35b6ac6dc.stex"
+path="res://.import/enemy.png-585a1ef34d398b1f79d8bc4db7d9b466.stex"
 
 [deps]
 
-source_file="res://Assets/Enemy/crosshair.png"
+source_file="res://Assets/Enemy/enemy.png"
 source_md5="6b27ae2684934a553309a8feef01af4c"
 
-dest_files=[ "res://.import/crosshair.png-be15faa8a4420e8670e725d35b6ac6dc.stex" ]
+dest_files=[ "res://.import/enemy.png-585a1ef34d398b1f79d8bc4db7d9b466.stex" ]
 dest_md5="c1d46ce28eb1ef7fccc051df684ff47f"
 
 [params]
